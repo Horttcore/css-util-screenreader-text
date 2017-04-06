@@ -1,2 +1,1 @@
-# css-util-screenreader-text
-A CSS utility class for screenreader text
+# CSS utility class for screen reader text
