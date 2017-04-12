@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de-DE" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Screenreader Text Demo</title>
+<link rel="stylesheet" href="../css-util-screenreader-text.css">
+<style>
+body {
+	font-family: sans-serif;
+}
+
+section {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0;
+	min-height: 100vh;
+	text-align: center;
+}
+
+.screenreader-text {
+	background: blue;
+	color: white;
+	left: 0;
+	margin: auto;
+	max-width: 640px;
+	opacity: 0;
+	padding: .5em;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	top: 0;
+	transform: translate(0, -100%);
+	transition: all .2s;
+	width: 100%;
+}
+
+.screenreader-text span {
+	background: white;
+	border: 1px solid;
+	color: blue;
+	display: inline-block;
+	padding: .5em;
+}
+
+.screenreader-text:focus {
+	opacity: 1;
+	outline: none;
+	transform: translate(0,0);
+}
+</style>
+</head>
+<body>
+
+	<a class="screenreader-text" href="#main"><span>Jump to content</span></a>
+
+	<section>
+
+		<p>
+			Press Tab to show a screenreader only text
+		</p>
+
+	</section>
+
+	<section id="main">
+
+		<h1>Lorem ipsum</h1>
+
+		<a href="#">Lorem ipsum</a> dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+	</section>
+
+</body>
+</html>
