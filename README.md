@@ -1,1 +1,4 @@
-# CSS utility class for screen reader text
+# CSS utility class for screenreader text
+
+## Installation
+`bower install css-util-screenreader-text --save`
