@@ -1,5 +1,5 @@
 /* Text meant only for screen readers. */
-.screen-reader-text {
+.screenreader-text {
     clip: rect(1px, 1px, 1px, 1px);
     position: absolute !important;
     height: 1px;
@@ -7,7 +7,7 @@
     overflow: hidden;
 }
 
-.screen-reader-text:focus {
+.screenreader-text:focus {
     clip: auto !important;
     display: block;
     height: auto;
