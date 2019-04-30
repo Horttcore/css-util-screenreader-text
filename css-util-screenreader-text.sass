@@ -1,0 +1,13 @@
+.screenreader-text
+    clip: rect(1px, 1px, 1px, 1px)
+    position: absolute !important
+    height: 1px
+    width: 1px
+    overflow: hidden
+
+    &:focus
+        clip: auto !important
+        display: block
+        height: auto
+        width: auto
+        z-index: 100000;

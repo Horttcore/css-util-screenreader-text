@@ -1,15 +1,9 @@
 {
-  "name": "css-util-screenreader-text",
-  "homepage": "https://github.com/Horttcore/css-util-screenreader-text",
-  "authors": [
-    "Ralf Hortt <me@horttcore.de>"
-  ],
-  "description": "A CSS utility class for screenreader text",
-  "main": "css-util-screenreader-text.css",
-  "keywords": [
-    "css",
-    "utility",
-    "screenreader"
-  ],
-  "license": "MIT"
+    "name": "css-util-screenreader-text",
+    "homepage": "https://github.com/Horttcore/css-util-screenreader-text",
+    "authors": ["Ralf Hortt <me@horttcore.de>"],
+    "description": "A CSS utility class for screenreader text",
+    "main": "css-util-screenreader-text.min.css",
+    "keywords": ["css", "utility", "screenreader"],
+    "license": "MIT"
 }
